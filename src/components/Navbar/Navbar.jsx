@@ -16,8 +16,8 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li><NavLink to='/'>Home</NavLink></li>
-      <li><NavLink to='/booking'>Booking Now</NavLink></li>
-      <li><NavLink to='/ourTeam'>Our Team</NavLink></li>
+      <li><NavLink to='/addProducts'>Add Products</NavLink></li>
+      <li><NavLink to='/myCart'>My Cart</NavLink></li>
       <li><NavLink to='/about'>About US</NavLink></li>
     </>
   );
@@ -50,7 +50,10 @@ const Navbar = () => {
              {navLinks}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-3xl font-bold text-cyan-700">Sporting Storm</a>
+          <div>
+            <img className="h-16" src="https://i.ibb.co/wzwdRFj/project-management.png" alt="techFusion" />
+          </div>
+          <a className="btn btn-ghost normal-case text-3xl font-bold text-cyan-700">Tech Fusion X</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
