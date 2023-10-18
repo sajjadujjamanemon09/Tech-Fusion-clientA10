@@ -8,8 +8,7 @@ const ContactUs = () => {
             </div>
             <div className="hero">
   <div className="hero-content flex-col md:flex-row justify-between">
-    <div className="text-center w-2/4 lg:text-left" data-aos="zoom-out" data-aos-easing="linear"
-      data-aos-duration="1500">
+    <div className="text-center w-2/4 lg:text-left">
       <h1 className="text-5xl font-bold">Get Touch</h1>
       <p className="py-6 max-w-2xl">Thank you for your interest in reaching out to us at <span className="text-red-500">Tech Fusion X</span>. We value your feedback, inquiries, and any technology-related concerns you may have. Our team is dedicated to providing exceptional service and support to ensure your tech experience is seamless and satisfying.</p>
       <div className="flex my-auto items-center gap-4">
@@ -24,9 +23,7 @@ const ContactUs = () => {
       
     </div>
                 
-                <div className="md:w-2/4" data-aos="fade-down"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+                <div className="md:w-2/4">
                     <img src="https://i.ibb.co/Y7j0p2B/27206.jpg" alt="" />
                 </div>
             </div>

@@ -9,7 +9,7 @@ const BrandNames = ({product}) => {
 
     return (
         <div>
-           <Link to='/products'>
+           <Link to={`/products/${brand}`}>
            <div className="card shadow-xl bg-base-300">
               <figure className="px-4 pt-4">
                 <img className="rounded-xl" src={image} />

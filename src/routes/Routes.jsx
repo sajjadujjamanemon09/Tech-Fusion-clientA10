@@ -7,6 +7,7 @@ import Register from "../pages/Register/Register";
 import MyCart from "../pages/MyCart/MyCart";
 import Products from "../pages/Products/Products";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import PrivetRoutes from "./PrivetRoutes";
 
 
 
@@ -19,7 +20,7 @@ const routes = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home> ,
-            loader: () => fetch('http://localhost:5000/product')
+            loader: () => fetch('http://localhost:5000/brands')
         },
         {
             path: '/login',
@@ -38,8 +39,9 @@ const routes = createBrowserRouter([
             element: <MyCart></MyCart>
         },
         {
-            path: '/products',
-            element: <Products></Products>
+            path: '/products/:brandName',
+            element: <PrivetRoutes><Products></Products></PrivetRoutes>,
+            loader: ({params}) => fetch(`http://localhost:5000/product/${params.brandName}`)
         },
       ]
     },
