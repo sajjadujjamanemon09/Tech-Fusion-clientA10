@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </nav> 
       <aside>
-        <p className="text-white">Copyright © 2023 - All right reserved by THE ULTIMATE SPORTING HEROES</p>
+        <p className="text-white">Copyright © 2023 - All right reserved by Tech Fusion X</p>
       </aside>
     </footer>
     );

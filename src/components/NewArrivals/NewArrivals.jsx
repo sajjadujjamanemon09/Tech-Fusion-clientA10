@@ -35,7 +35,7 @@ const NewArrivals = () => {
                 {/* items2 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 189</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -58,7 +58,7 @@ const NewArrivals = () => {
                 {/* items3 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 139</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -81,7 +81,7 @@ const NewArrivals = () => {
                 {/* items4 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 289</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -104,7 +104,7 @@ const NewArrivals = () => {
                 {/* items5 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 329</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -127,7 +127,7 @@ const NewArrivals = () => {
                 {/* items6 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 119</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -150,7 +150,7 @@ const NewArrivals = () => {
                 {/* items7 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 219</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -173,7 +173,7 @@ const NewArrivals = () => {
                 {/* items8 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 389</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
@@ -196,7 +196,7 @@ const NewArrivals = () => {
                 {/* items9 */}
                 <div className="card border rounded-none shadow-md">
                 <div className="p-6">
-                <h2 className="card-title pb-4">$ 89</h2>
+                <h2 className="card-title pb-4">$ 289</h2>
                 <div className="rating rating-sm gap-2">
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />
                   <input type="radio" name="rating-4" className="mask mask-star-2 bg-red-500" />

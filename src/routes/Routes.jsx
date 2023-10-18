@@ -6,12 +6,15 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import MyCart from "../pages/MyCart/MyCart";
 import Products from "../pages/Products/Products";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+
 
 
 const routes = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
             path: '/',
