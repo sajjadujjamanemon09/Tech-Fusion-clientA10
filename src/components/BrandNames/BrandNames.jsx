@@ -8,18 +8,18 @@ const BrandNames = ({product}) => {
     const { brand, image} = product;
 
     return (
-       <Link to='/products'>
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl">
-              <figure className="px-10 pt-10">
-                <img src={image} />
+           <Link to='/products'>
+           <div className="card shadow-xl bg-base-300">
+              <figure className="px-4 pt-4">
+                <img className="rounded-xl" src={image} />
               </figure>
               <div className="card-body items-center text-center">
-                <h2 className="card-title">{brand}</h2>
+                <h2 className="card-title text-2xl font-bold text-cyan-700">{brand}</h2>
               </div>
             </div>
+           </Link>
         </div>
-       </Link>
     );
 };
 

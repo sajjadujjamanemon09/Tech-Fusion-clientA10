@@ -5,7 +5,7 @@ import AddProducts from "../pages/AddProducts/AddProducts";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import MyCart from "../pages/MyCart/MyCart";
-import Products from "../components/Products/Products";
+import Products from "../pages/Products/Products";
 
 
 const routes = createBrowserRouter([
