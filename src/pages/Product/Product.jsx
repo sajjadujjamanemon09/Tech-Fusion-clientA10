@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 
+import { Link } from "react-router-dom";
+
 
 const Product = ({product}) => {
-    const { name, brand, type, price, image, } = product;
+    const { name, brand, type, price, image, _id } = product;
     return (
         <div className="p-3">
         
@@ -33,12 +35,14 @@ const Product = ({product}) => {
                         </div></p>
   </div>
   <div className="flex justify-between p-6 pt-0">
+    <Link to={`/singleProduct/${_id}`}>
     <button
       className="block w-40 select-none rounded-lg bg-slate-900 text-white py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"
     >
       See Details
     </button>
+    </Link>
     <button
       className="block w-40 select-none rounded-lg bg-slate-900 text-white py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"

@@ -8,6 +8,7 @@ import MyCart from "../pages/MyCart/MyCart";
 import Products from "../pages/Products/Products";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import PrivetRoutes from "./PrivetRoutes";
+import SingleProduct from "../pages/SingleProduct/SingleProduct";
 
 
 
@@ -36,12 +37,17 @@ const routes = createBrowserRouter([
         },
         {
             path: '/myCart',
-            element: <MyCart></MyCart>
+            element: <PrivetRoutes><MyCart></MyCart></PrivetRoutes>,
         },
         {
             path: '/products/:brandName',
             element: <PrivetRoutes><Products></Products></PrivetRoutes>,
             loader: ({params}) => fetch(`http://localhost:5000/product/${params.brandName}`)
+        },
+        {
+            path: '/singleProduct/:_id',
+            element: <PrivetRoutes><SingleProduct></SingleProduct></PrivetRoutes>,
+            loader: ({params}) => fetch(`http://localhost:5000/singleProduct/${params._id}`)
         },
       ]
     },
