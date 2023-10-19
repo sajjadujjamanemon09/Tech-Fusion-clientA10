@@ -1,8 +1,27 @@
-# React + Vite
+⦿ Project Name        :-    Tech Fusion X       
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⦿ Project Live Link   :-    (https://assignment-10-8538b.web.app/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Here added some bullet points of this Project:
+
+➤  *User Authentication and Authorization*: Users can sign up and log in using valid email and password.
+        Passwords must meet security requirements, including uppercase, lowercase, numeric, and symbol characters.
+
+➤  *Dynamic Navigation Bar*: The navigation bar displays three routes:- `Home`, `Add Products` and `My Cart`.
+        It includes a brand `logo` on the left and a dynamic `login/logout` button on the right.
+
+➤  *Homepage Banner*: The homepage features a visually appealing banner with the Tech title and a background image related to the Technology.
+
+➤  *Brand Names*: There are four dynamically generated brand cards on the homepage.
+        Each card shown has a `'Image & Brand Name'`.
+
+➤  *Contact Us Section*: The `Contact Us` section provides information about the services offered, the organization's mission, and what they provide to users.
+
+➤  *Private Routes and Access Control*: Certain routes, such as `Add Products`, `My Cart`, and `Products` are private and only accessible to authenticated users.
+        Unauthorized users attempting to access private routes are redirected to the login page.
+
+➤  *Sweet Alert Notifications*: Users receive alert notifications for successful sign-in and login actions.
+        Successful login results in a alert indicating a successful login, while incorrect credentials trigger a notification.
+    

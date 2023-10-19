@@ -21,7 +21,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="hero w-full py-24 overflow-hidden">
+    <div className="hero w-full pt-6 pb-24 overflow-hidden">
       {slides.map((src, index) => (
         <div
           key={index}
