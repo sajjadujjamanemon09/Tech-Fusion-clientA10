@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const Product = ({product}) => {
-    const { name, brand, type, price, image, _id } = product;
+    const { name, brand, type, price, image, _id, rating } = product;
     return (
         <div className="p-3">
         
@@ -26,13 +26,7 @@ const Product = ({product}) => {
     </div>
     <p className="block font-semibold text-sm antialiased pb-3">{brand}</p>
     <p className="block font-semibold text-xs antialiased pb-3">{type}</p>
-    <div className="block font-semibold text-xs antialiased pb-3"> <div className="rating rating-md gap-4">
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                        </div></div>
+    <div className="block font-semibold text-xs antialiased pb-3">Rating : {rating}</div>
   </div>
   <div className="flex justify-between p-6 pt-0">
     <Link to={`/singleProduct/${_id}`}>

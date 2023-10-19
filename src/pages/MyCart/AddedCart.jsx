@@ -1,8 +1,40 @@
 /* eslint-disable react/prop-types */
 
+import swal from "sweetalert";
 
-const AddedCart = ({cart, handleDelete}) => {
+
+const AddedCart = ({cart, carts, setCarts}) => {
     const {_id, image, name, type, brand} = cart;
+
+
+    const handleRemove = (id) => {
+        console.log(id);
+        swal({
+            title: "Are you sure?",
+            text: "Once deleted, you will not be able to recover this imaginary file!",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+          })
+          .then((willDelete) => {
+            if (willDelete) {
+                fetch(`http://localhost:5000/carts/${_id}`,{
+                    method: 'DELETE'
+                })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                    if(data.deletedCount > 0){
+                        swal("Poof! Your imaginary file has been deleted!", {
+                            icon: "success",
+                          });
+                          const remaining = carts.filter(car => car._id !== id)
+                          setCarts(remaining)
+                    }
+                })
+            }
+          });
+    }
 
     return (
         
@@ -28,7 +60,7 @@ const AddedCart = ({cart, handleDelete}) => {
   </div>
   <div className="p-6 pt-0">
     <button
-      onClick={() => handleDelete(_id)}
+      onClick={() => handleRemove(_id)}
       className="block w-full bg-slate-900 text-white select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"
     >

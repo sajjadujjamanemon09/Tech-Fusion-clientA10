@@ -1,21 +1,20 @@
 import { useLoaderData } from "react-router-dom";
 import AddedCart from "./AddedCart";
+import { useState } from "react";
 
 
 const MyCart = () => {
 
     const addedCartItem = useLoaderData()
 
-    const handleRemove = (id) => {
-        console.log(id);
-    }
+    const [carts, setCarts] = useState(addedCartItem)
 
     return (
         <div>
-            <h2>This is my cart</h2>
+            <h2 className="text-4xl font-semibold text-center py-10 text-cyan-700">Cart Product</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {
-                addedCartItem.map(cart => <AddedCart key={cart._id} cart={cart} handleRemove={handleRemove}></AddedCart>)
+                carts.map(cart => <AddedCart key={cart._id} cart={cart} carts={carts} setCarts={setCarts}></AddedCart>)
             }
             </div>
         </div>

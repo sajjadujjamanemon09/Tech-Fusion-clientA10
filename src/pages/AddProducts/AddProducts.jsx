@@ -82,7 +82,7 @@ const AddProducts = () => {
                     </label>
                 </div>
             </div>
-            {/* description & image url row */}
+            {/* description & rating row */}
             <div className="md:flex mb-8">
                 <div className="form-control md:w-1/2">
                     <label className="label">
@@ -94,28 +94,21 @@ const AddProducts = () => {
                 </div>
                 <div className="form-control md:w-1/2 md:ml-4">
                     <label className="label">
+                        <span className="label-text">Rating</span>
+                    </label>
+                    <label className="input-group">
+                        <input type="text" name="rating" placeholder="__ out of 5" className="input input-bordered w-full" />
+                    </label>
+                </div>
+            </div>
+            {/* image row */}
+            <div className="mb-8">
+            <div className="form-control">
+                    <label className="label">
                         <span className="label-text">Image URL</span>
                     </label>
                     <label className="input-group">
                         <input type="text" name="image" placeholder="Image URL" className="input input-bordered w-full" />
-                    </label>
-                </div>
-            </div>
-            {/* Rating row */}
-            <div className="mb-8">
-                <div className="form-control w-full">
-                <label className="label">
-                        <span className="label-text">Rating</span>
-                    </label>
-                    <label className="input-group">
-                        {/* <input type="text" name="rating" placeholder="Rating" className="input input-bordered w-full" /> */}
-                        <div className="rating pt-2 gap-4">
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                          <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                        </div>
                     </label>
                 </div>
             </div>
