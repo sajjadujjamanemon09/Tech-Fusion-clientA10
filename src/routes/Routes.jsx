@@ -9,6 +9,7 @@ import Products from "../pages/Products/Products";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import PrivetRoutes from "./PrivetRoutes";
 import SingleProduct from "../pages/SingleProduct/SingleProduct";
+import UpdateNow from "../pages/UpdateNow/UpdateNow";
 
 
 
@@ -47,6 +48,11 @@ const routes = createBrowserRouter([
         {
             path: '/singleProduct/:_id',
             element: <PrivetRoutes><SingleProduct></SingleProduct></PrivetRoutes>,
+            loader: ({params}) => fetch(`http://localhost:5000/singleProduct/${params._id}`)
+        },
+        {
+            path: '/updateNow/:_id',
+            element: <UpdateNow></UpdateNow>,
             loader: ({params}) => fetch(`http://localhost:5000/singleProduct/${params._id}`)
         },
       ]

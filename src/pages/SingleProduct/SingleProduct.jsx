@@ -7,7 +7,7 @@ const SingleProduct = () => {
     return (
         <div className='px-6 pb-14'>
         <h1 className="text-5xl font-bold py-10 ">{name}</h1>
-       <div><img className="hero h-[60vh] w-[60vh] mx-auto " src={image} alt="" /></div>
+       <div><img className="hero md:h-[60vh] md:w-[60vh] mx-auto " src={image} alt="" /></div>
 
    <div className="flex items-center gap-4 pt-9">
    <p className="text-lg font-semibold">Brand Name:</p>
@@ -21,7 +21,7 @@ const SingleProduct = () => {
     </p>
     </div>
 
-    <p className="pb-10 pt-4 w-[50vh] text-lg font-semibold">Specification: <span className="text-base font-light">{description}</span></p>
+    <p className="pb-10 pt-4 md:w-[50vh] text-lg font-semibold">Specification: <span className="text-base font-light">{description}</span></p>
     
     
     <Link to={'/myCart'}>

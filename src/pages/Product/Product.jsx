@@ -26,13 +26,13 @@ const Product = ({product}) => {
     </div>
     <p className="block font-semibold text-sm antialiased pb-3">{brand}</p>
     <p className="block font-semibold text-xs antialiased pb-3">{type}</p>
-    <p className="block font-semibold text-xs antialiased pb-3"> <div className="rating rating-md gap-4">
+    <div className="block font-semibold text-xs antialiased pb-3"> <div className="rating rating-md gap-4">
                           <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
                           <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
                           <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
                           <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
                           <input type="radio" name="rating" className="mask mask-star-2 bg-red-500" />
-                        </div></p>
+                        </div></div>
   </div>
   <div className="flex justify-between p-6 pt-0">
     <Link to={`/singleProduct/${_id}`}>
@@ -43,12 +43,14 @@ const Product = ({product}) => {
       See Details
     </button>
     </Link>
+    <Link to={`/updateNow/${_id}`}>
     <button
       className="block w-40 select-none rounded-lg bg-slate-900 text-white py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
       type="button"
     >
       Update Now
     </button>
+    </Link>
   </div>
 </div>
         
