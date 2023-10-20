@@ -20,7 +20,7 @@ const AddProducts = () => {
         console.log(newProduct); 
 
         // send data to the server
-        fetch('http://localhost:5000/product', {
+        fetch('https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/product', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'
@@ -82,7 +82,7 @@ const AddProducts = () => {
                     </label>
                 </div>
             </div>
-            {/* description & rating row */}
+            {/* descriptions & rating row */}
             <div className="md:flex mb-8">
                 <div className="form-control md:w-1/2">
                     <label className="label">

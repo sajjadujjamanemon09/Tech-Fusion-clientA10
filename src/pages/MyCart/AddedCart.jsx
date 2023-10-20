@@ -11,21 +11,21 @@ const AddedCart = ({cart, carts, setCarts}) => {
         console.log(id);
         swal({
             title: "Are you sure?",
-            text: "Once deleted, you will not be able to recover this imaginary file!",
+            text: "Once deleted, you will not be able to recover this Cart!",
             icon: "warning",
             buttons: true,
             dangerMode: true,
           })
           .then((willDelete) => {
             if (willDelete) {
-                fetch(`http://localhost:5000/carts/${_id}`,{
+                fetch(`https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/carts/${_id}`,{
                     method: 'DELETE'
                 })
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
                     if(data.deletedCount > 0){
-                        swal("Poof! Your imaginary file has been deleted!", {
+                        swal("Success! Your Selected cart has deleted!", {
                             icon: "success",
                           });
                           const remaining = carts.filter(car => car._id !== id)

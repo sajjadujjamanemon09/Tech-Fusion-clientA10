@@ -8,7 +8,7 @@ const SingleProduct = () => {
     const addedItem = {name, image, description, type, brand, }
  
     const handleAddToCart = () => {
-        fetch('http://localhost:5000/carts', {
+        fetch('https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/carts', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

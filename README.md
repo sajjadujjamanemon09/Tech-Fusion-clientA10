@@ -14,7 +14,7 @@ Here added some bullet points of this Project:
 
 ➤  *Homepage Banner*: The homepage features a visually appealing banner with the Tech title and a background image related to the Technology.
 
-➤  *Brand Names*: There are four dynamically generated brand cards on the homepage.
+➤  *Brand Names*: There are six dynamically generated brand cards on the homepage.
         Each card shown has a `'Image & Brand Name'`.
 
 ➤  *Contact Us Section*: The `Contact Us` section provides information about the services offered, the organization's mission, and what they provide to users.
