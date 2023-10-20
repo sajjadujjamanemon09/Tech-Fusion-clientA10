@@ -1,14 +1,19 @@
 /* eslint-disable react/prop-types */
+import { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
 import swal from "sweetalert";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const SingleProduct = () => {
 
+    const {user} = useContext(AuthContext)
+    const userEmail = user.email;
+
     const {_id,name, image, description, type, brand} =  useLoaderData()
-    const addedItem = {name, image, description, type, brand, }
+    const addedItem = {name, image, description, type, brand, userEmail}
  
     const handleAddToCart = () => {
-        fetch('https://assignment-10-server-five-rho.vercel.app/carts', {
+        fetch('https://ass10-two.vercel.app/carts', {
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

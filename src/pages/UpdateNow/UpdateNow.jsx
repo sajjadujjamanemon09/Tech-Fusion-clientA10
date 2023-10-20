@@ -25,7 +25,7 @@ const UpdateNow = () => {
         console.log(updatedProduct); 
 
         // send data to the server
-        fetch(`https://assignment-10-server-five-rho.vercel.app/singleProduct/${_id}`, {
+        fetch(`https://ass10-two.vercel.app/singleProduct/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type' : 'application/json'
