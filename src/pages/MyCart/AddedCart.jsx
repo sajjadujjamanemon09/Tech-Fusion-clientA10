@@ -18,7 +18,7 @@ const AddedCart = ({cart, carts, setCarts}) => {
           })
           .then((willDelete) => {
             if (willDelete) {
-                fetch(`https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/carts/${_id}`,{
+                fetch(`https://assignment-10-server-five-rho.vercel.app/carts/${_id}`,{
                     method: 'DELETE'
                 })
                 .then(res => res.json())

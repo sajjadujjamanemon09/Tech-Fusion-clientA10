@@ -22,7 +22,7 @@ const routes = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home> ,
-            loader: () => fetch('https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/brands')
+            loader: () => fetch('https://assignment-10-server-five-rho.vercel.app/brands')
         },
         {
             path: '/login',
@@ -39,22 +39,22 @@ const routes = createBrowserRouter([
         {
             path: '/carts',
             element: <PrivetRoutes><MyCart></MyCart></PrivetRoutes>,
-            loader: () => fetch('https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/carts')
+            loader: () => fetch('https://assignment-10-server-five-rho.vercel.app/carts')
         },
         {
             path: '/products/:brandName',
             element: <PrivetRoutes><Products></Products></PrivetRoutes>,
-            loader: ({params}) => fetch(`https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/product/${params.brandName}`)
+            loader: ({params}) => fetch(`https://assignment-10-server-five-rho.vercel.app/product/${params.brandName}`)
         },
         {
             path: '/singleProduct/:_id',
             element: <PrivetRoutes><SingleProduct></SingleProduct></PrivetRoutes>,
-            loader: ({params}) => fetch(`https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/singleProduct/${params._id}`)
+            loader: ({params}) => fetch(`https://assignment-10-server-five-rho.vercel.app/singleProduct/${params._id}`)
         },
         {
             path: '/updateNow/:_id',
             element: <PrivetRoutes><UpdateNow></UpdateNow></PrivetRoutes>,
-            loader: ({params}) => fetch(`https://assignment-10-server-392jrr3r1-sajjaduj-jaman-emons-projects.vercel.app/singleProduct/${params._id}`)
+            loader: ({params}) => fetch(`https://assignment-10-server-five-rho.vercel.app/singleProduct/${params._id}`)
         },
       ]
     },
