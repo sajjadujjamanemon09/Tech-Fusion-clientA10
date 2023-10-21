@@ -4,10 +4,12 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    'https://i.ibb.co/6RXwD67/8642509.jpg',
-    'https://i.ibb.co/KXfCJYK/18494352-6003862.jpg',
-    'https://i.ibb.co/gMDsDnt/31696846-7841490.jpg',
-    'https://i.ibb.co/6WybFWy/19335415-6083243.jpg',
+    'https://i.ibb.co/mGkTt8q/24850233-social-media-banner-super-promotion-up-to-50-off.jpg',
+    'https://i.ibb.co/9W7BTjG/34415764-422.jpg',
+    'https://i.ibb.co/8BvZ8LS/16136135-5691822.jpg',
+    'https://i.ibb.co/JHrkYHr/20113928-BLACK-FRIDAY-COUPON-Mesa-de-trabajo-1.jpg',
+    'https://i.ibb.co/0rBstW9/23959141-hubij8.jpg',
+    'https://i.ibb.co/dGs8TWT/23957526-9.jpg',
   ];
 
   useEffect(() => {
