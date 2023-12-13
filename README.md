@@ -1,8 +1,8 @@
 ⦿ Project Name        :-    Tech Fusion X       
 
- [⚙️ Project Live Link 🔗](https://assignment-10-8538b.web.app) <br/>
- [⚙️ GitHub Client Link 🔗](https://github.com/sajjadujjamanemon09/News12Paper-clientA12) <br/>
- [⚙️ GitHub Server Link 🔗](https://github.com/sajjadujjamanemon09/News12Paper-serverA12) <br/>
+ [ Project Live Link 🔗](https://assignment-10-8538b.web.app) <br/>
+ [ GitHub Client Link 🔗](https://github.com/sajjadujjamanemon09/Tech-Fusion-clientA10) <br/>
+ [ GitHub Server Link 🔗](https://github.com/sajjadujjamanemon09/Tech-Fusion-serverA10) <br/>
 
 ### Unique Features:
 
