@@ -1,18 +1,19 @@
 ⦿ Project Name        :-    Tech Fusion X       
 
- [ Project Live Link 🔗](https://assignment-10-8538b.web.app) <br/>
- [ GitHub Client Link 🔗](https://github.com/sajjadujjamanemon09/Tech-Fusion-clientA10) <br/>
- [ GitHub Server Link 🔗](https://github.com/sajjadujjamanemon09/Tech-Fusion-serverA10) <br/>
+ [🔗 Project Live Link ](https://assignment-10-8538b.web.app) <br/>
+ [🔗 GitHub Client Link ](https://github.com/sajjadujjamanemon09/Tech-Fusion-clientA10) <br/>
+ [🔗 GitHub Server Link ](https://github.com/sajjadujjamanemon09/Tech-Fusion-serverA10) <br/>
 
 ### Unique Features:
 
    📌Implemented Night Mode Theme & Day Mode theme functionality.
    <br/>
-   📌Implement Infinite Scroll In All article Section Using react-infinite-scroll-component.
+   📌Add react-messenger-customer chat
    
 ### Project Selling Line: 
+Introducing our house service booking platform with admin dashboard. Browse and book services, manage bookings through a user dashboard. Service providers can add services, pending admin approval. Service owners can accept or reject booking requests. Simplify your life with our platform!
 
-Here added some bullet points of this Project:
+## Here added some bullet points of this Project:
 
 ➤  *User Authentication and Authorization*: Users can sign up and log in using valid email and password.
         Passwords must meet security requirements, including uppercase, lowercase, numeric, and symbol characters.
