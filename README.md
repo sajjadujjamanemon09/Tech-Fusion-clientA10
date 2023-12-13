@@ -1,8 +1,16 @@
 ⦿ Project Name        :-    Tech Fusion X       
 
-⦿ Project Live Link   :-    (https://assignment-10-8538b.web.app/)
+ [⚙️ Project Live Link 🔗](https://assignment-10-8538b.web.app) <br/>
+ [⚙️ GitHub Client Link 🔗](https://github.com/sajjadujjamanemon09/News12Paper-clientA12) <br/>
+ [⚙️ GitHub Server Link 🔗](https://github.com/sajjadujjamanemon09/News12Paper-serverA12) <br/>
 
+### Unique Features:
 
+   📌Implemented Night Mode Theme & Day Mode theme functionality.
+   <br/>
+   📌Implement Infinite Scroll In All article Section Using react-infinite-scroll-component.
+   
+### Project Selling Line: 
 
 Here added some bullet points of this Project:
 
