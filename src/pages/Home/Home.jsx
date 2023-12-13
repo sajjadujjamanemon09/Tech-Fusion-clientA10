@@ -28,8 +28,8 @@ const Home = () => {
       <ContactUs></ContactUs>
       <MessengerCustomerChat
         pageId="102878114526702"
-        appId="1297812207583467"
-        htmlRef="<REF_STRING>"
+        appId="378318038099987"
+        // htmlRef="<REF_STRING>"
       />
     </div>
   );
