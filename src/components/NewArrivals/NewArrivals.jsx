@@ -22,7 +22,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/255JJc6/26765185-2112-i211-002-S-m012-c13-headphones-wireless-realistic-composition-5.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACjS7R.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -45,7 +45,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/8rgMnkv/4754499-2s388578.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACwu4a.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -68,7 +68,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/GFZYTHG/5972751-21852.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACkfP1.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -91,7 +91,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/DwwVSTn/4060988-1153.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACkRVI.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -114,7 +114,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/z740CQq/recording-human-icon-stereo-wireless.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACkP0F.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -137,7 +137,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/G59t3Kd/1609119-P2-PD3-B0.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACv35G.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -160,7 +160,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/mbqkWfs/3998721-14416.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JAC8nTv.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -183,7 +183,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/61cmFPB/2010-i211-001-P-m004-c25-gamepad-realistic-set-01.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACS6fS.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     
@@ -206,7 +206,7 @@ const NewArrivals = () => {
                 </div>
                 </div>
                   <figure className="px-3 pt-3">
-                    <img src="https://i.ibb.co/30kX1PH/3888756-11873.jpg" alt="" className="rounded-xl h-80 w-full" />
+                    <img src="https://iili.io/JACUoqN.jpg" alt="" className="rounded-xl h-80 w-full" />
                   </figure>
                   <div className="flex justify-center gap-10 items-center text-center p-8">
                     

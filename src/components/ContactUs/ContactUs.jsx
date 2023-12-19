@@ -24,7 +24,7 @@ const ContactUs = () => {
     </div>
                 
                 <div className="md:w-2/4">
-                    <img src="https://i.ibb.co/Y7j0p2B/27206.jpg" alt="" />
+                    <img src="https://iili.io/JACrdNa.jpg" alt="" />
                 </div>
             </div>
            
